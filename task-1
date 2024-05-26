@@ -1,0 +1,75 @@
+Requirements
+All tasks must be done inside the sandbox Ubuntu 20.04
+Your sandbox must be available at the end of this project - the Checker will access to it at midnight for running the correction!
+The answer of a task must be in a specific file
+Each answer file must contain only the command to execute in Emacs for solving the task. Example: “What is the command to write buffer to a specified file?” -> the file should contain only C-x C-w
+Quiz questions
+Great! You've completed the quiz successfully! Keep going! (Show quiz)
+Tasks
+0. Create your answer directory
+mandatory
+Score: 100.0% (Checks completed: 100.0%)
+Navigate to /root and create a directory named 0x02_emacs
+
+   
+1. Opening
+mandatory
+Score: 100.0% (Checks completed: 100.0%)
+What is the command to open a file from within Emacs?
+
+Write the answer into the file /root/0x02_emacs/opening.
+
+You can validate if the format of your answer is correct by displaying the file information:
+
+root@hex:~# ls -l /root/0x02_emacs/opening
+-rw-r--r-- 1 root root 9 Nov 11 04:34 /root/0x02_emacs/opening
+root@hex:~# 
+   
+2. Saving
+mandatory
+Score: 100.0% (Checks completed: 100.0%)
+What is the command to save a file?
+
+Write the answer into the file /root/0x02_emacs/saving.
+
+   
+3. Cutting
+mandatory
+Score: 100.0% (Checks completed: 100.0%)
+What is the command to cut an entire line?
+
+Write the answer into the file /root/0x02_emacs/cutting.
+
+   
+4. Pasting
+mandatory
+Score: 100.0% (Checks completed: 100.0%)
+What is the command to paste?
+
+Write the answer into the file /root/0x02_emacs/pasting.
+
+   
+5. Searching
+mandatory
+Score: 100.0% (Checks completed: 100.0%)
+What is the command to search forward?
+
+Write the answer into the file /root/0x02_emacs/searching.
+
+   
+6. Undoing
+mandatory
+Score: 100.0% (Checks completed: 100.0%)
+What is the command to undo?
+
+Write the answer into the file /root/0x02_emacs/undoing.
+
+   
+7. Quitting
+mandatory
+Score: 100.0% (Checks completed: 100.0%)
+What is the command to quit Emacs?
+
+Write the answer into the file /root/0x02_emacs/quitting.
+
+   
